@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <Button
+        android:id="@+id/rendel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Rendel"
+        android:focusable="false"
+        android:padding="4dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_name"
+        android:padding="4dp"
+        android:layout_toLeftOf="@id/rendel_button"
+        android:textColor="#2f4f4f" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_price"
+        android:textColor="#2f4f4f"
+        android:padding="4dp"
+        android:layout_toLeftOf="@id/rendel_button"
+        android:layout_below="@id/tx_name"
+        />
+
+</RelativeLayout>

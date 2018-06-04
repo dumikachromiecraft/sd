@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">PizzériAPP</string>
+    <string name="visszajelzes">Visszajelzés</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_create_order">Térkép</string>
+    <string name="title_activity_order">Order Activity</string>
+    <string name="action_share">Share</string>
+    <string name="editTextErtesites">Kérjük írja le az észrevételeit az éttermünkkel kapcsolatban!</string>
+    <string name="elkuldButton">Elküld</string>
+    <string name="title_top">Top fragment</string>
+    <string name="editTextHint">Ide írjon kérem...</string>
+    <string name="chooser">Send message</string>
+    <string name="bemutatkozas">Bemutatkozás</string>
+    <string name="bemutatkozasHosszu">Nemrég nyílt pizzériánk Győr-Szabadhegy legszebb régiójában kapott helyett. A design kialakítása során törekedtünk egy autentikus, igazi történelmi kinézetű, hangulatos étterem létrehozására. A rengeteg féle pizza választék közül mindenki megtalálhatja magának a kedvencét. A hangulatról az élőzene gondoskodik. Szívesen fogadjuk a különböző rendezvények megrendezését, előzetes egyeztetéssel. Pizzériánk hosszas nyitvatartással, ingyen WiFi-vel, darts, billiárd fakultációval büszkélkedik. Látogasson el hozzánk!</string>
+    <string-array name="pizzas">
+        <item>Diavolo</item>
+        <item>Funghi</item>
+    </string-array>
+    <string-array name="titles">
+        <item>Rólunk</item>
+        <item>Pizzák</item>
+        <item>Asztalfoglalás</item>
+        <item>Információ</item>
+    </string-array>
+    <string-array name="feltetek">
+        <item>paradicsomos</item>
+        <item>csipős</item>
+        <item>mustáros</item>
+        <item>tejfölös</item>
+    </string-array>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="idopontok">
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+    </string-array>
+    <string-array name="values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="hanyszemely">
+        <item>1-4</item>
+        <item>5-8</item>
+        <item>9-12</item>
+        <item>13-16</item>
+        <item>17-20</item>
+    </string-array>
+    <string name="title_activity_jutalmak">Jutalmak</string>
+</resources>

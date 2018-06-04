@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:BitsAndPizzas ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+
+    <item
+        android:id="@+id/action_create_order"
+        android:title="@string/action_create_order"
+        android:icon="@drawable/ic_action_new_event"
+        android:orderInCategory="1"
+        BitsAndPizzas:showAsAction="never" />
+    <item
+        android:id="@+id/visszajelzes"
+        android:title="@string/visszajelzes"
+        android:orderInCategory="2"
+        BitsAndPizzas:showAsAction="never" />
+    <item
+        android:id="@+id/kosar"
+        android:title="Kosar"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:orderInCategory="1"
+        BitsAndPizzas:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/beallitas"
+        android:title="Beállítások"
+        android:orderInCategory="1"
+        BitsAndPizzas:showAsAction="never" />
+    <item
+        android:id="@+id/jutalmak"
+        android:title="Jutalmak"
+        BitsAndPizzas:showAsAction="never" />
+
+
+</menu>
